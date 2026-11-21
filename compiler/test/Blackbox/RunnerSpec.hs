@@ -212,6 +212,14 @@ spec :: Spec
 spec = do
   let cases =
         [ "compiler/test/Blackbox/test-cases/hello-world"
+        , "compiler/test/Blackbox/test-cases/dotted-module-name"
+        , "compiler/test/Blackbox/test-cases/template-string-escapes"
+        , "compiler/test/Blackbox/test-cases/interface-unused-type-variable"
+        , "compiler/test/Blackbox/test-cases/alias-unbound-type-variable"
+        , "compiler/test/Blackbox/test-cases/maybe-sugar-named-import"
+        , "compiler/test/Blackbox/test-cases/list-spread-no-mutation"
+        , "compiler/test/Blackbox/test-cases/monomorphize-local-shadows-prelude"
+        , "compiler/test/Blackbox/test-cases/record-rest-param-nested"
         , "compiler/test/Blackbox/test-cases/basic-type-error"
         , "compiler/test/Blackbox/test-cases/parse-madlib-dot-json"
         , "compiler/test/Blackbox/test-cases/fibonacci"
@@ -348,6 +356,7 @@ spec = do
 
   let coverageCases =
         [ "compiler/test/Blackbox/test-cases/hocp-coverage-tce"
+        , "compiler/test/Blackbox/test-cases/coverage-operator-on-own-line"
         , "compiler/test/Blackbox/test-cases/tce-addition-with-coverage"
         ]
 

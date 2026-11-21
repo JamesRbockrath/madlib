@@ -1,0 +1,12 @@
+     ╭──▶ compiler/test/Blackbox/test-cases/interface-unused-type-variable/Entrypoint.mad@5:1-7:2
+     │
+   5 │ ╭┤ interface Breaks m {
+   6 │ │    fails :: a -> String -> Maybe a
+   7 │ ├┤ }
+     • │ 
+     • ╰╸ The type variable 'm' declared by 'interface Breaks' does not appear in any of its methods.
+     •
+     │ Hint: Every type variable in an interface head must be used by at least one method signature; otherwise no instance can be selected when the method is called.
+     │ Note: Use 'm' in a method signature, or remove it from the interface head.
+─────╯
+
