@@ -220,6 +220,7 @@ spec = do
         , "compiler/test/Blackbox/test-cases/list-spread-no-mutation"
         , "compiler/test/Blackbox/test-cases/monomorphize-local-shadows-prelude"
         , "compiler/test/Blackbox/test-cases/record-rest-param-nested"
+        , "compiler/test/Blackbox/test-cases/tce-non-tail-where"
         , "compiler/test/Blackbox/test-cases/basic-type-error"
         , "compiler/test/Blackbox/test-cases/parse-madlib-dot-json"
         , "compiler/test/Blackbox/test-cases/fibonacci"
